@@ -1,22 +1,298 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Abhishek Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Patil Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    body{
+      background:#0f172a;
+      color:white;
+      font-family:Arial, sans-serif;
+    }
+
+    .card{
+      background:#1e293b;
+      border:1px solid #334155;
+      border-radius:16px;
+      padding:20px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      border-color:#6366f1;
+    }
+
+    .chip{
+      background:#312e81;
+      padding:5px 10px;
+      border-radius:20px;
+      font-size:12px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Abhishek Patil</h1>
-  <h2>QA Automation Engineer</h2>
 
-  <p>Skills:</p>
-  <ul>
-    <li>Rest Assured</li>
-    <li>Selenium</li>
-    <li>Java</li>
-    <li>API Testing</li>
-    <li>SQL</li>
-  </ul>
+<!-- HERO SECTION -->
+<section class="min-h-screen flex items-center justify-center px-6">
 
-  <p>GitHub: https://github.com/yourusername</p>
+<div class="max-w-5xl grid md:grid-cols-2 gap-10 items-center">
+
+<div>
+<h1 class="text-5xl font-bold mb-4">
+Hi, I'm <span class="text-indigo-400">Abhishek Patil</span>
+</h1>
+
+<h2 class="text-2xl text-gray-300 mb-5">
+QA Automation Engineer
+</h2>
+
+<p class="text-gray-400 leading-7 mb-6">
+Experienced QA Engineer with expertise in Manual and Automation Testing across Web, API, and Mobile applications. Skilled in Java, Python, Playwright, Selenium, Appium, REST API Testing, SQL, and Agile methodologies.
+</p>
+
+<div class="flex gap-4">
+<a href="https://github.com/" target="_blank" class="bg-indigo-600 px-5 py-3 rounded-lg">
+<i class="fa-brands fa-github"></i> GitHub
+</a>
+
+<a href="https://linkedin.com/" target="_blank" class="bg-blue-600 px-5 py-3 rounded-lg">
+<i class="fa-brands fa-linkedin"></i> LinkedIn
+</a>
+</div>
+</div>
+
+<div class="flex justify-center">
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+class="w-72 h-72 rounded-full border-4 border-indigo-500">
+</div>
+
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="px-6 py-16">
+
+<h2 class="text-4xl font-bold text-center mb-10">
+Experience
+</h2>
+
+<div class="max-w-5xl mx-auto space-y-6">
+
+<div class="card">
+<h3 class="text-2xl font-bold text-indigo-400">
+Quality Assurance Engineer – Techdome
+</h3>
+
+<p class="text-gray-400 mb-4">
+Sep 2025 – Present
+</p>
+
+<ul class="list-disc pl-5 space-y-2 text-gray-300">
+<li>Worked on Wizlo and Sparrow applications.</li>
+<li>Performed API Testing and Automation Testing.</li>
+<li>Automated workflows using Java Playwright.</li>
+<li>Performed Functional, Regression, Smoke, and UAT Testing.</li>
+<li>Worked with SQL queries and backend validation.</li>
+<li>Logged and tracked bugs using Jira.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3 class="text-2xl font-bold text-indigo-400">
+QA Engineer-1 – GTET
+</h3>
+
+<p class="text-gray-400 mb-4">
+Nov 2023 – Mar 2024
+</p>
+
+<ul class="list-disc pl-5 space-y-2 text-gray-300">
+<li>Worked on nLearn and Crash Course platforms.</li>
+<li>Performed Functional and Regression Testing.</li>
+<li>Created test plans and test cases.</li>
+<li>Worked in Agile sprint releases.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="px-6 py-16 bg-slate-900">
+
+<h2 class="text-4xl font-bold text-center mb-10">
+Projects
+</h2>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<div class="card">
+<h3 class="text-xl font-bold mb-3">
+Sparrow API Tool
+</h3>
+
+<p class="text-gray-400 mb-4">
+Performed API validation, request/response testing, authentication testing, and automation using Playwright Java.
+</p>
+
+<div class="flex flex-wrap gap-2">
+<span class="chip">API Testing</span>
+<span class="chip">Playwright</span>
+<span class="chip">Java</span>
+</div>
+</div>
+
+<div class="card">
+<h3 class="text-xl font-bold mb-3">
+Wizlo Web Application
+</h3>
+
+<p class="text-gray-400 mb-4">
+Performed Functional, Smoke, Regression, and UI testing with automation coverage.
+</p>
+
+<div class="flex flex-wrap gap-2">
+<span class="chip">Manual Testing</span>
+<span class="chip">Automation</span>
+<span class="chip">SQL</span>
+</div>
+</div>
+
+<div class="card">
+<h3 class="text-xl font-bold mb-3">
+Humanize AI
+</h3>
+
+<p class="text-gray-400 mb-4">
+Performed AI workflow testing, dashboard validation, and UAT testing.
+</p>
+
+<div class="flex flex-wrap gap-2">
+<span class="chip">AI Testing</span>
+<span class="chip">Manual QA</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- SKILLS -->
+<section class="px-6 py-16">
+
+<h2 class="text-4xl font-bold text-center mb-10">
+Skills
+</h2>
+
+<div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
+
+<div class="card text-center">
+<i class="fa-brands fa-java text-5xl text-orange-500 mb-3"></i>
+<h3>Java</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-brands fa-python text-5xl text-yellow-400 mb-3"></i>
+<h3>Python</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-solid fa-gear text-5xl text-indigo-400 mb-3"></i>
+<h3>Selenium</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-solid fa-masks-theater text-5xl text-green-400 mb-3"></i>
+<h3>Playwright</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-solid fa-mobile-screen text-5xl text-pink-400 mb-3"></i>
+<h3>Appium</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-solid fa-flask text-5xl text-orange-400 mb-3"></i>
+<h3>REST API</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-solid fa-database text-5xl text-yellow-500 mb-3"></i>
+<h3>SQL</h3>
+</div>
+
+<div class="card text-center">
+<i class="fa-brands fa-github text-5xl text-gray-300 mb-3"></i>
+<h3>GitHub</h3>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section class="px-6 py-16 bg-slate-900">
+
+<h2 class="text-4xl font-bold text-center mb-10">
+Education
+</h2>
+
+<div class="max-w-3xl mx-auto">
+
+<div class="card text-center">
+<h3 class="text-2xl font-bold text-indigo-400 mb-3">
+B.Tech – Mechanical Engineering
+</h3>
+
+<p class="text-gray-400">
+Sharnbasva University, Karnataka
+</p>
+
+<p class="text-gray-400">
+CGPA: 8.1
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-10 text-center border-t border-slate-700">
+
+<h3 class="text-2xl font-bold mb-3">
+Abhishek Patil
+</h3>
+
+<p class="text-gray-400 mb-4">
+QA Automation Engineer
+</p>
+
+<div class="flex justify-center gap-5 text-2xl">
+
+<a href="mailto:abhishek.depak@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://linkedin.com/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+</div>
+
+<p class="text-gray-500 mt-6">
+© 2026 Abhishek Patil
+</p>
+
+</footer>
+
 </body>
 </html>
